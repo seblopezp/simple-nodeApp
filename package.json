@@ -4,18 +4,19 @@
   "description": "simple node app",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^6.8.3"
+    "express": "4.18.2",
+    "mongoose": "6.8.3",
+    "mqtt": "4.3.7"
   },
   "devDependencies": {
-    "chai": "^4.3.7",
-    "chai-http": "^4.3.0",
-    "mocha": "^10.2.0"
+    "chai": "4.3.7",
+    "chai-http": "4.3.0",
+    "mocha": "10.2.0"
   },
   "scripts": {
     "start": "node src/app.js",
     "test": "mocha --timeout 10000"
- },
+  },
   "author": "seblopezp",
   "license": "MIT"
 }
